@@ -1,3 +1,8 @@
+"""
+Sequential Child-Combination Tree-LSTM Network for PolEval 2017 evaluation campaign
+Implementation inspired by "Efficient recursive (tree-structured) neural networks in TensorFlow" available at https://github.com/erickrf/treernn
+"""
+
 import sys
 
 import numpy as np
