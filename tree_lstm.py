@@ -151,4 +151,4 @@ with tf.Session() as sess:
 
     saver.restore(sess, 'models/model')
     acc = predict(sess, test_data)
-    sys.stdout.write('\n\ntest acc: {}'.format(acc))
+    sys.stdout.write('\n\ntest acc: {}'.format(acc))# test
